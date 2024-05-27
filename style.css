@@ -1,0 +1,96 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+body{
+   
+}
+nav{
+    max-width: 1500px;
+    border: 2% solid rgb(3, 67, 3);
+    background-color: rgb(3, 76, 3);
+    
+}
+ul{
+    
+    list-style-type: none;
+    display: inline-block;
+   word-spacing: 23cap;
+  
+}
+
+.logo {
+    border: solid white;
+    border-width: 2px;
+    background-color: white;
+    color: green;
+    height: 5vh;
+    width: 22vh;
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+    position: relative;
+    
+}
+li{
+    display: inline-block;
+   color: white;
+   font-size: 120%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: brown; 
+}
+#div1{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(picture\ for\ second\ assignment.png);
+    background-color: rgba(0, 0, 0, 0.804);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: auto;
+    padding: 0;
+   
+}
+h1 {
+    color: white;
+    text-align: center;
+   font-size: 400%;
+   position: relative;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 170%;
+    position: relative;
+}
+#div2{
+    background-color: rgb(53, 68, 71);
+    
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+#icons{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+    font-size: 110%;
+}
+footer{
+    
+    border-top: 2px solid green;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
